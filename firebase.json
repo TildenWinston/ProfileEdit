@@ -1,0 +1,16 @@
+{
+  "hosting": {
+    "public": "profileEdit/dist/profileEdit",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  }
+}
